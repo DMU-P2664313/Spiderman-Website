@@ -1,0 +1,118 @@
+
+/* Reset margin and padding */
+* {
+    margin:0;
+    padding:0;
+}
+
+/* Main Page Styles */
+
+body {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.4;
+    background: #ddd;
+}
+
+/* Responsive Video and Images to Scale with Window */
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Title Styles Size and Spacing */
+
+h1 {
+    font-size: 38px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Menu Styles – Remove Underline, Add Spacing & Hover */
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 5px;
+    background: #fff;
+}
+
+ul li a:hover {
+    background: #ccc;
+}
+
+/* Synopsis Box Styles – Spacing */
+
+.synopsis {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Cast Member Box Styles */
+
+.cast-member {
+    float: left;
+    padding: 20px;
+    margin-bottom: 40px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+/* Image to Left */
+
+.cast-member .photo {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Spacing of Text & Interview */
+
+.cast-member .about {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.cast-member .about h2 {
+    margin-bottom: 20px;
+}
+
+.cast-member .interview {
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+    clear: both;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+}
+
+footer p {
+    font-size: 12px;
+}
